@@ -1,0 +1,48 @@
+@keyframes color-change{
+    0%{
+        color:black;
+    }
+    50%{
+        color:aliceblue;
+    }
+    100%{
+        color:black;
+    }
+}
+
+#color-change{
+    animation:color-change 4s infinite;
+}
+
+body  {background:url(https://bible-help.ru/wp-content/uploads/kosmos.jpg)50% no-repeat fixed;
+background-size: 100% auto;}
+body{
+    color: blueviolet;
+}
+
+*{
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.center{
+    text-align: center;
+}
+.question{
+    font-size: 30px;
+}
+.text-decoration-none{
+    text-decoration:none;
+}
+.border-ridge{
+    border: 2px ridge #4b00ee;
+    background-color: bisque;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    width: 400px;
+}
+
+
+.info{
+    color:#f4eded;
+    }
